@@ -31,6 +31,6 @@
 ## II. Evaluating the Backdoored Model
    1. The DNN architecture used to train the face recognition model is the state-of-the-art DeepID network. 
    2. To evaluate the backdoored model, execute `eval.py` by running:  
-      `python3 eval.py <clean validation data directory> <poisoned validation data directory> <model directory>`.
-      
+      `python3 eval.py <clean validation data directory> <poisoned validation data directory> <model directory>`. 
       E.g., `python3 eval.py data/cl/valid.h5 data/bd/bd_valid.h5 models/bd_net.h5`. 
+
