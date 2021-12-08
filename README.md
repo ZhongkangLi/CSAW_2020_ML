@@ -11,9 +11,11 @@
 ├── models
     └── bd_net.h5
     └── bd_weights.h5
+├── repaired_models
     └── repaired_x2.h5 //this is the repaired model for x = 2%
     └── repaired_x4.h5 //this is the repaired model for x = 4%
     └── repaired_x10.h5 //this is the repaired model for x = 10%
+    └── repaired_x30.h5 //this is the repaired model for x = 30%
 ├── architecture.py
 └── eval.py // this is the evaluation script
 ```
